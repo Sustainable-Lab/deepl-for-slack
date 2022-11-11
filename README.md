@@ -1,5 +1,7 @@
 ## DeepL App for Slack
 
+Updated the code with Lam's DeepL API on Nov 11th 2022
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/seratch/deepl-for-slack/tree/master)
 
 If the above button does not work for you (due to "We couldn't deploy your app because the source code violates the Salesforce Acceptable Use and External-Facing Services Policy." error), you can fork this repository and use your own URL like `https://heroku.com/deploy?template=https://github.com/{your GitHub account here}/deepl-for-slack/tree/master`.
@@ -95,7 +97,7 @@ Use the [App Manifest file](https://github.com/seratch/deepl-for-slack/blob/mast
 * Click **Open DeepL Tool**
 * Enter a text and the language on the modal
 
-### License 
+### License
 
 The MIT License
 
