@@ -48,7 +48,7 @@ app.view("run-translation", async ({ ack, client, body }) => {
   let translatedText: string | null = await deepL.translate(text, lang);
   // Old code, but this was incorrect because one can't || regular RegExp objects in JavaScript
   // const pattern = /<@.+?>/g || /<!.+?>/g || /<#.+?>/g;  // /g global flag is required for replaceAll in typescript.
-  // New correct code below
+  // New correct code below for Javascript
   const pattern = /(<@.+?>)|(<!.+?>)|(<#.+?>)/g; // /g global flag is required for replaceAll in typescript.
   translatedText = translatedText ? translatedText.replaceAll(pattern, "") :  translatedText;
 
